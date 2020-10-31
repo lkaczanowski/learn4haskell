@@ -1,0 +1,19 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:learn4haskell"
+
+    - path: "test"
+      component: "learn4haskell:test:learn4haskell-test"
+
+    - path: "./"
+      component: "learn4haskell:test:doctest-chapter1"
+
+    - path: "./"
+      component: "learn4haskell:test:doctest-chapter2"
+
+    - path: "./"
+      component: "learn4haskell:test:doctest-chapter3"
+
+    - path: "./"
+      component: "learn4haskell:test:doctest-chapter4"
